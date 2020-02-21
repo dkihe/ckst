@@ -1,7 +1,30 @@
+
+/* Stacks form items on top each other */
 input {
     display: block;
 }
 
+/* Makes "Show Password" appear to the right of the checkbox*/
 #togglepw {
     display: inline-block;
+}
+
+
+/* Center Login Page Vertically and Horizontally */
+body, html {
+    height: 100%;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
