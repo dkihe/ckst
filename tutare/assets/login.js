@@ -1,7 +1,15 @@
 // Change later to submit form to database
+// Submits form if all fields have been filled
 let submitForm = () => {
     let message = document.getElementById("message")
-    message.innerHTML = "Form Submitted"
+    let username = document.getElementById("username")
+    let password = document.getElementById("password")
+    if (username.value === "" || password.value === "") {
+        message.innerHTML = "Please fill in all fields"
+    }
+    else {
+        message.innerHTML = "Form Submitted"
+    }
 }
 
 // Toggle to show the password by clicking the checkbox
