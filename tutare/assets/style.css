@@ -1,3 +1,7 @@
+body {
+    background-color: #DFCFBE;
+}
+
 /* Set font to page */
 html {
     font-family: "Open Sans";
@@ -36,5 +40,14 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    max-width: 15%;
+    border-radius: 25px;
 }
