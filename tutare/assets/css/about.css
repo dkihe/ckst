@@ -1,0 +1,54 @@
+body {
+    background-color: #DFCFBE;
+}
+
+h1 {
+    font-family: 'Lato';
+    color: black;
+    padding-left: 110px;
+    padding-right: 110px;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#wrapper {
+    width: 350px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+form {
+
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.button {
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    font-size: 17px;
+    font-family: 'Lato';
+    letter-spacing: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: 600;
+    min-width: 120px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button:hover, .button:active {
+  color:black;
+  background:rgba(0, 0, 0, 0.2);
+}

@@ -1,23 +1,18 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
     <head>
-        <!-- Login Page CSS -->
-        <link rel="stylesheet" type="text/css" href="/static/style.css">
-        <!-- Open Sans Font -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
+    <meta charset="utf-8">
+    <title>Tutare - Login</title>
+        <link rel="stylesheet" href="{% static '/css/login.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" >
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
     </head>
     <body>
-
-    <div class="imgcontainer">
-        <img src="{% static "images/people.png" %}"  alt="Avatar" class="avatar">
-    </div>
-
-        <!-- Login Form -->
+        <img alt="" src="{% static '/images/people.png'  %}" width=100 id="logo"/>
+    <div class="form-area">
+        <h3>SIGN IN</h3>
         <div class="login">
             <form>
                 <label for="username">Username</label>
@@ -25,14 +20,17 @@
 
                 <label for="password">Password</label>
                 <input type="password" id="password" name= "password" required>
-                <input type="checkbox" id="togglepw" onClick="togglePassword()"> Show Password
-                
+
+                <input type="checkbox" id="togglepw" name="togglepw" onClick="togglePassword()"/>
+                <label for="togglepw">Show Password</label>
+
                 <input type="button" id="signin" name="signin" value="Sign In" onClick="submitForm()">
                 <div id="message"></div>
             </form>
         </div>
-
         <!-- Login Page functions -->
-        <script type="text/javascript" src="/static/login.js"></script>
+        <script type="text/javascript" src="/static/js/login.js"></script>
+    </div>
+
     </body>
 </html>
