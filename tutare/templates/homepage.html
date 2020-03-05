@@ -3,11 +3,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <meta charset="utf-8">
-        <title>Homepage</title>
+    <meta charset="utf-8">
+    <title>Tutare</title>
+        <link rel="stylesheet" href="{% static '/css/homepage.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
     </head>
     <body>
-        <h1>This is the homepage</h1>
-        <p>Welcome to Tutare</p>
+        <img src="{% static '/images/people.png' width=60 %}" id="logo"/>
+    <h1>Welcome to<br> Tutare!</h1>
+        <form method="get" action="about.html"><a href="about" class="button">Begin Tour</a></form>
+        <br>
+        <form method="get" action="login.html"><a href="login" class="button">Login</a></form>
+        <br>
+        <form method="get" action="login.html"><a href="login" class="button">Sign Up</a></form>
     </body>
 </html>
