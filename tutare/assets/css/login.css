@@ -117,3 +117,10 @@ label {
     position: relative;
     display:inline;
 }
+
+#message {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    height: 20px;
+}
