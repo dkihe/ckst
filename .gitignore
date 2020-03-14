@@ -1,9 +1,12 @@
 
+!**/__pycache__/
+
 tutare/tutare/__pycache__/__init__.cpython-38.pyc
 tutare/tutare/__pycache__/settings.cpython-38.pyc
 tutare/tutare/__pycache__/urls.cpython-38.pyc
 tutare/tutare/__pycache__/views.cpython-38.pyc
 tutare/tutare/__pycache__/wsgi.cpython-38.pyc
+ 
 .idea/checkstyle-idea.xml
 .idea/ckst.iml
 .idea/codeStyles/Project.xml
