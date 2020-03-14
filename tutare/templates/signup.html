@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <title>Tutare - Login</title>
+        <link rel="stylesheet" href="{% static '/css/login.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" >
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100" rel="stylesheet"> <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+    </head>
+    <body>
+        <img alt="" src="{% static '/images/people.png'  %}" width=100 id="logo"/>
+    <div class="form-area">
+        <h3>SIGN IN</h3>
+        <div class="signup">
+            <form>
+                <label for="email">Email</label>
+                <input type="text" id="email" name= "email" required>
+
+                <label for="username">Username</label>
+                <input type="text" id="username" name= "username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name= "password" required>
+
+                <label for="confpassword">Confirm Password</label>
+                <input type="password" id="confpassword" name= "confpassword" required>
+
+                <input type="checkbox" id="togglepw" name="togglepw" onClick="togglePassword()"/>
+                <label for="togglepw">Show Password</label>
+
+                <input type="button" id="signin" name="signin" value="Sign In" onClick="submitForm()">
+                <div id="message"></div>
+            </form>
+        </div>
+        <!-- Login Page functions -->
+        <script type="text/javascript" src="/static/js/login.js"></script>
+    </div>
+
+    </body>
+</html>

@@ -15,11 +15,14 @@ let submitForm = () => {
 // Toggle to show the password by clicking the checkbox
 let togglePassword = () => {
     let password = document.getElementById("password");
+    let confpassword = document.getElementById("confpassword");
 
     if (password.type === "password") {
         password.type = "text"
+        confpassword.type = "text"
     }
     else {
         password.type = "password"
+        confpassword.type = "password"
     }
 };
