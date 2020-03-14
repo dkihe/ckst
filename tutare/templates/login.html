@@ -13,7 +13,7 @@
         <img alt="" src="{% static '/images/people.png'  %}" width=100 id="logo"/>
     <div class="form-area">
         <h3>SIGN IN</h3>
-        <div class="login">
+        <div id="login">
             <form>
                 <label for="username">Username</label>
                 <input type="text" id="username" name= "username" required>
@@ -24,7 +24,7 @@
                 <input type="checkbox" id="togglepw" name="togglepw" onClick="togglePassword()"/>
                 <label for="togglepw">Show Password</label>
 
-                <input type="button" id="signin" name="signin" value="Sign In" onClick="submitForm()">
+                <input type="submit" id="signin" name="signin" value="Sign In" onClick="submitForm()">
                 <div id="message"></div>
             </form>
         </div>
