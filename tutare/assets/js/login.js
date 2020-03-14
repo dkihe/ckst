@@ -1,20 +1,22 @@
 // Change later to submit form to database
 // Submits form if all fields have been filled
-let submitForm = () => {
+const submitForm = () => {
     let message = document.getElementById("message");
     let username = document.getElementById("username");
     let password = document.getElementById("password");
     
     if (username.value === "" || password.value === "") {
+        message.style.color = "#C70039"
         message.innerHTML = "Please fill in all fields"
     }
     else {
+        message.style.color = "#9DC700"
         message.innerHTML = "Form Submitted"
     }
 }
 
 // Toggle to show the password by clicking the checkbox
-let togglePassword = () => {
+const togglePassword = () => {
     let signup = document.getElementById("signup");
     let password = document.getElementById("password");
     let confpassword = document.getElementById("confpassword");
@@ -40,7 +42,7 @@ let togglePassword = () => {
 }
 
 // Check if passwords match
-let checkMatchingPassword = () => {
+const checkMatchingPassword = () => {
     let password = document.getElementById("password");
     let confpassword = document.getElementById("confpassword");
 
@@ -50,14 +52,20 @@ let checkMatchingPassword = () => {
 }
 
 // Validate form when submitting
-let validateForm = () => {
+const validateForm = () => {
     let message = document.getElementById("message");
-
-    if (checkMatchingPassword()) {
-        return true
-    }
-    else {
-        message.innerHTML = "Passwords do not match"
-        return false
+    let signup = document.getElementById("signup");
+    
+    if (signup) {
+        if (checkMatchingPassword()) {
+            message.style.color = "#9DC700"
+            message.innerHTML = "Form Submitted"
+            return true
+        }
+        else {
+            message.style.color = "#C70039"
+            message.innerHTML = "Passwords do not match"
+            return false
+        }
     }
 }
