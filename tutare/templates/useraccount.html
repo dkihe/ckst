@@ -25,7 +25,7 @@
           {% if all_accounts %}
             <ul>
               {% for account in all_accounts %}
-                <li><a href="/tutare/{{ account.account }}/">{{ account.account_password }}</a></li>
+                <li><a href="/tutare/{{ account.account }}/">{{ account.account }} : {{ account.account_password }}</a></li>
                 {% endfor %}
             </ul>
           {% else %}
