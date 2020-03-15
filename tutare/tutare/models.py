@@ -14,4 +14,4 @@ class UserAccount(models.Model):
     account_password = models.CharField(max_length=25, default='')
 
     def __str__(self):
-        return '{} / {}'.format(self.user, self.account, self.account_password)
+        return '{} / {} / {}'.format(self.user, self.account, self.account_password)
