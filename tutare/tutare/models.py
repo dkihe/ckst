@@ -11,7 +11,7 @@ class User(models.Model):
 class UserAccount(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     account = models.CharField(max_length=25)
-    password = models.CharField(max_length=25, default='')
+    account_password = models.CharField(max_length=25, default='')
 
     def __str__(self):
         return '{} / {}'.format(self.user, self.account, self.password)
