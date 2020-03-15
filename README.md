@@ -61,5 +61,26 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Next Task:
     * Start work on User Homepage
     * Enhonce design of all pages
-    
+
+# Update (02/25/2020 - 03/08/2020)
+## Progress: What is new in the project since the last README submitted
+* Changed the entire layout and design of the webpage
+* Added new pages such as a Sign-up page, a User page and an About page
+* Added more functionality to the login and signup pages (form validation)
+
+## Link: Include link to your online repository showing the continuing work
+* https://github.com/dkihe/ckst/
+## Pending: What is left to do now in order to complete the application as per the project design goals.v
+* Christopher Na 
+  * Next Task:
+* Kainalu Kihe
+  * Completed Signup page (front end)
+  * Created Signup page functionality (form validation, password checker)
+  * Next Task:
+* Sabine Strasburger
+  * Redesigned entire website (Homepage, Login, About, Signup)
+  * Next Task:
+* Ty Gwartney
+  * Next Task:
+
     
