@@ -1,6 +1,5 @@
 from django import forms
-
-from tutare.tutare.models import User
+from .models import User, ContactUs
 
 
 class UserForm(forms.ModelForm):
@@ -9,3 +8,10 @@ class UserForm(forms.ModelForm):
         widgets = {
             'password': forms.PasswordInput(),
         }
+        fields = ['password']
+
+
+class ContactForm(forms.ModelForm):
+    class Meta:
+        model = ContactUs
+        fields = ('name', 'email', 'phone', 'message')
