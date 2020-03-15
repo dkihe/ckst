@@ -25,6 +25,7 @@ urlpatterns = [
     path('signup/', views.signup),
     path('useraccount/', views.useraccount),
     path('', views.homepage),
+    path('contact/', views.contact, name='contact_form'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()

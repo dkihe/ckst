@@ -14,3 +14,9 @@ tutare/tutare/__pycache__/wsgi.cpython-38.pyc
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
+tutare/db.sqlite3
+tutare/db.sqlite3
+tutare/db.sqlite3
+.idea/workspace.xml
+*.pyc
+*.pyc
