@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.template import loader
 from .models import UserAccount
 
 def homepage(request):
@@ -16,7 +17,8 @@ def signup(request):
 
 def useraccount(request):
     all_accounts = UserAccount.objects.all()
+    template = loader.get_template('useraccount.html')
     context = {
         'all_accounts': all_accounts,
     }
-    return render(request, 'useraccount.html')
+    return HttpResponse(template.render(context, request))

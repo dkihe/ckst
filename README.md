@@ -72,7 +72,9 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * https://github.com/dkihe/ckst/
 ## Pending
 * Christopher Na 
-  * Next Task:
+  * Completed Contact page and database workflow
+  * Design changes to pages for a cohesive color scheme
+  * Next Task: User account authorization and finalization of data associated with accounts
 * Kainalu Kihe
   * Completed Signup page (front end)
   * Created Signup page functionality (form validation, password checker)
