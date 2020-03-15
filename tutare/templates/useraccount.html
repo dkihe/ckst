@@ -20,6 +20,19 @@
           <label for="password">Password</label>
         </td>
       </tr>
+      <tr>
+        <td>
+          {% if all_accounts %}
+            <ul>
+              {% for account in all_accounts %}
+                <li><a href="/tutare/{{ account.account }}/">{{ account.password }}</a></li>
+                {% endfor %}
+            </ul>
+          {% else %}
+            <h3>No accounts to display.</h3>
+          {% endif %}
+        </td>
+      </tr>
     </table>
   </body>
 </html>
