@@ -70,7 +70,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 # Update (02/25/2020 - 03/08/2020)
 ## Progress
 * Changed the entire layout and design of the webpage
-* Added new pages such as a Sign-up page, a User page and an About page
+* Added new pages such as a Sign-up page, a User Account page and an About page
 * Added more functionality to the login and signup pages (form validation)
 
 ## Link
