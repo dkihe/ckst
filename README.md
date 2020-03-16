@@ -78,7 +78,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * Kainalu Kihe
   * Completed Signup page (front end)
   * Created Signup page functionality (form validation, password checker)
-  * Next Task:
+  * Next Task: Design User page and add functionality
 * Sabine Strasburger
   * Redesigned entire website (Homepage, Login, About, Signup)
   * Next Task: Add admin capabilities to view database from Django backend
