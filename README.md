@@ -75,7 +75,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 
 ## Link
 * https://github.com/dkihe/ckst/
-## Pending
+## Currently
 * Christopher Na 
   * Completed Contact page and database workflow
   * Design changes to pages for a cohesive color scheme
