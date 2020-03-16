@@ -75,7 +75,16 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 
 ## Link
 * https://github.com/dkihe/ckst/
-## Currently
+
+
+## Pending
+* Give functionality to User page
+* Add admin capabilities to backend
+* Create user accounts and store user data on the database
+* Allow users to add new accounts and password entries to the database
+* Finalize design for user page
+
+## Roles and responsibilities
 * Christopher Na 
   * Completed Contact page and database workflow
   * Design changes to pages for a cohesive color scheme
