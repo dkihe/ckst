@@ -19,11 +19,13 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 # Completed
 
 * Database setup
-* Created login page
+* Created Login page
   * Login form 
     * Username and password 
     * Function to hide password
-    * Form checker 
+    * Form checker
+ * Created the User Account page
+ * Created the About page
 
 # Pending
 
@@ -59,7 +61,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Drew diagrams detailing each page needed for the application
   * Planned application functionality and user flow
   * Next Task:
-    * Start work on User Homepage
+    * Start work on User Account page
     * Enhonce design of all pages
 
 # Update (02/25/2020 - 03/08/2020)
@@ -78,11 +80,13 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * Kainalu Kihe
   * Completed Signup page (front end)
   * Created Signup page functionality (form validation, password checker)
-  * Next Task: Design User page and add functionality
+  * Next Task: Add design and functionality to the User Account page
 * Sabine Strasburger
   * Redesigned entire website (Homepage, Login, About, Signup)
   * Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
-  * Next Task:
+  * Created the User Account page and added basic design
+  * Enabled the User Account page to load dummy data (account:password) from the database in a user-specific manner
+  * Next Task: Enable users to add new account:password entries to the database from the User Account page
 
     
