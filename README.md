@@ -88,17 +88,17 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * Christopher Na 
   * Completed Contact page and database workflow
   * Design changes to pages for a cohesive color scheme
-    * Next Task: User account authorization and finalization of data associated with accounts
+    * Current/Next Task: User account authorization and finalization of data associated with accounts
 * Kainalu Kihe
   * Completed Signup page (front end)
   * Created Signup page functionality (form validation, password checker)
-    * Next Task: Add design and functionality to the User Account page
+    * Current/Next Task: Add design and functionality to the User Account page
 * Sabine Strasburger
   * Redesigned entire website (Homepage, Login, About, Signup)
-    * Next Task: Add admin capabilities to view database from Django backend
+    * Current/Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
   * Created the User Account page and added basic design
   * Enabled the User Account page to load dummy data (account:password) from the database in a user-specific manner
-    * Next Task: Enable users to add new account:password entries to the database from the User Account page
+    * Current/Next Task: Enable users to add new account:password entries to the database from the User Account page
 
     
