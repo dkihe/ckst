@@ -84,7 +84,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * Allow users to add new accounts and password entries to the database
 * Finalize design for user page
 
-## Roles and responsibilities
+## Roles and Responsibilities
 * Christopher Na 
   * Completed Contact page and database workflow
   * Design changes to pages for a cohesive color scheme
