@@ -19,24 +19,27 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 # Completed
 
 * Database setup
+  * One model/table for users enabled - username and password
+  * One model/table for user account data - registered accounts and password
 * Created Login page
   * Login form 
     * Username and password 
     * Function to hide password
     * Form checker
  * Created the User Account page
+    * Lists users accounts and passwords associated with each account
  * Created the About page
+    * Overview of the app and website
 
 # Pending
 
+* Account authorization
+  * Verify the user account:password from the Login page
 * Sign-up Page
   * Page used to sign up for a new account using a username and password
-* Login Page
-  * Login page that links to the Sign-up page or Sign-in page
-* Database
-  * Database that holds user information such as accounts and passwords
-* User Homepage
-  * Lists users accounts and passwords associated with each account
+  * Add newly created accounts to the database
+* Admin page
+  * Allow for overview of backend/database data
 
 # Team Contribution
 * Christopher Na 
@@ -76,17 +79,17 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * Christopher Na 
   * Completed Contact page and database workflow
   * Design changes to pages for a cohesive color scheme
-  * Next Task: User account authorization and finalization of data associated with accounts
+    * Next Task: User account authorization and finalization of data associated with accounts
 * Kainalu Kihe
   * Completed Signup page (front end)
   * Created Signup page functionality (form validation, password checker)
-  * Next Task: Add design and functionality to the User Account page
+    * Next Task: Add design and functionality to the User Account page
 * Sabine Strasburger
   * Redesigned entire website (Homepage, Login, About, Signup)
-  * Next Task: Add admin capabilities to view database from Django backend
+    * Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
   * Created the User Account page and added basic design
   * Enabled the User Account page to load dummy data (account:password) from the database in a user-specific manner
-  * Next Task: Enable users to add new account:password entries to the database from the User Account page
+    * Next Task: Enable users to add new account:password entries to the database from the User Account page
 
     
