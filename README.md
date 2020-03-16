@@ -81,7 +81,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Next Task:
 * Sabine Strasburger
   * Redesigned entire website (Homepage, Login, About, Signup)
-  * Next Task:
+  * Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
   * Next Task:
 
