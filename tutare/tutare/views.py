@@ -1,4 +1,4 @@
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from .forms import ContactForm
 from .models import ContactUs
@@ -36,8 +36,9 @@ def contact(request):
                 phone = form.cleaned_data.get('phone'),
                 message = form.cleaned_data.get('message'),
                 created_at = form.cleaned_data.get('created_at')
+
             )
-            return HttpResponseRedirect("/login/")
+            return HttpResponseRedirect("")
         if form.errors:
             errors = form.errors
 
