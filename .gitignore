@@ -11,3 +11,6 @@
 # pycaches #
 *.pyc
 
+# db changes #
+tutare/db.sqlite3
+
