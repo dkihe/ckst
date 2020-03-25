@@ -6,7 +6,6 @@ from .forms import ContactForm
 from .models import ContactUs, UserAccount
 
 
-
 def homepage(request):
     return render(request, 'homepage.html')
 
