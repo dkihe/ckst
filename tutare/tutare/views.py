@@ -1,10 +1,10 @@
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
+from django.template import loader
 
 from .forms import ContactForm
-from .models import ContactUs
-from django.template import loader
-from .models import UserAccount
+from .models import ContactUs, UserAccount
+
 
 
 def homepage(request):
