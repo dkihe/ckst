@@ -20,5 +20,13 @@
         <br>
         <form method="get" action="contact.html"> <a href="contact" class="button">Contact us</a> </form>
     {% endblock %}
+
+    {% if user.is_authenticated %}
+        <li>User: {{ user.get_username }}</li>
+        <li><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
+    {% else %}
+        <li><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>
+    {% endif %}
+
     </body>
 </html>
