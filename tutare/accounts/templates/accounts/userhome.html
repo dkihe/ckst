@@ -11,12 +11,14 @@
     <body>
         <img src="{% static '/images/people.png' width=60 %}" id="logo" alt="User Icon"/>
     <h1>Welcome to<br> Tutare!</h1>
-        <form method="get" action="about.html"><a href="about" class="button">Begin Tour</a></form>
+        <form method="get" action="about.html"><a href="" class="button">Password Bank</a></form>
         <br>
-        <form method="get" action="login.html"><a href="{% url 'accounts:login' %}" class="button">Login</a></form>
+        <form method="get" action="login.html"><a href="" class="button">Contact Us</a></form>
         <br>
-        <form method="get" action="signup.html"><a href="{% url 'accounts:signup' %}" class="button">Sign Up</a></form>
+        <form action="{% url 'accounts:logout' %}" method="post">
+            {% csrf_token %}
+        <button class="button" type="submit">Logout</button>
+        </form>
         <br>
-
     </body>
 </html>
