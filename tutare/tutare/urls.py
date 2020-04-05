@@ -21,14 +21,9 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', views.about),
-    path('login/', views.login),
-    #path('signup/', views.signup),
-    # path('useraccount/', views.useraccount),
     path('', views.homepage),
     re_path(r'^accounts/', include('accounts.urls')),
     re_path(r'^contactus/', include('contactus.urls')),
-    # path('contact/', views.contact, name='contact_form'),
-    # path('accounts/', include('django.contrib.auth.urls')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
