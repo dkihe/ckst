@@ -26,6 +26,7 @@ urlpatterns = [
     # path('useraccount/', views.useraccount),
     path('', views.homepage),
     re_path(r'^accounts/', include('accounts.urls')),
+    re_path(r'^contactus/', include('contactus.urls')),
     # path('contact/', views.contact, name='contact_form'),
     # path('accounts/', include('django.contrib.auth.urls')),
 ]
