@@ -11,19 +11,30 @@
     </head>
     <body>
         <img alt="" src="{% static '/images/people.png'  %}" width=100 id="logo"/>
+        <h3>SIGN UP</h3>
         <div class="form-area">
-            <br>
-            <br>
-            <br>
-            <br>
-            <h3>SIGN UP</h3>
             <form action="{% url 'accounts:signup' %}" method="post">
                 {% csrf_token %}
                 {{ form }}
-                <br>
-                <br>
+                <div id="showpass"><input type="checkbox" id="togglepw" onClick="togglePassword()">Show Password</div>
                 <input type="submit" name="Signup" id="signupThing">
             </form>
         </div>
+
+        <script type="text/javascript">
+            const togglePassword = () => {
+                let password1 = document.getElementById("id_password1");
+                let password2 = document.getElementById("id_password2");
+
+                if (password1.type === "password" && password2.type === "password") {
+                    password1.type = "text"
+                    password2.type = "text"
+                }
+                else {
+                    password1.type = "password"
+                    password2.type = "password"
+                }
+            }
+        </script>
     </body>
 </html>

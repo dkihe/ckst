@@ -37,13 +37,12 @@ h1 {
 h3 {
     font-family: 'Lato';
     margin: 0;
-    padding: 0 0 20px;
+    padding: 20px 0 20px;
     font-weight: 300;
     letter-spacing: 2px;
     color: black;
     text-align: center;
     font-size: 30px;
-    padding-bottom: 40px;
 }
 
 .form-area p{
@@ -110,7 +109,7 @@ h3 {
 }
 
 .form-area input[type=checkbox]{
-    width: 50%;
+    width: 10%;
 }
 
 label {
@@ -123,4 +122,26 @@ label {
     font-weight: 900;
     text-align: center;
     height: 20px;
+}
+
+#showpass {
+    width: 50%;
+}
+
+#togglepw {
+    display: inline-block;
+}
+
+#newuser {
+    display: block;
+    text-align: center;
+}
+
+.helptext {
+    font-size: 0;
+}
+
+.errorlist {
+    font-weight: bold;
+    color: red;
 }
