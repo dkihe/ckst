@@ -18,26 +18,16 @@ const submitForm = () => {
 // Toggle to show the password by clicking the checkbox
 const togglePassword = () => {
     let signup = document.getElementById("signup");
-    let password = document.getElementById("password");
+    let password = document.getElementById("id_password");
     let confpassword = document.getElementById("confpassword");
 
-    if (signup) {
-        if (password.type === "password") {
-            password.type = "text"
-            confpassword.type = "text"
-        }
-        else {
-            password.type = "password"
-            confpassword.type = "password"
-        }
+    if (password.type === "password") {
+        password.type = "text"
+        confpassword.type = "text"
     }
     else {
-        if (password.type === "password") {
-            password.type = "text"
-        }
-        else {
-            password.type = "password"
-        }
+        password.type = "password"
+        confpassword.type = "password"
     }
 }
 
