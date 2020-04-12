@@ -19,7 +19,7 @@
         <img src="{% static '/images/people.png' width=60 %}" id="logo" alt="User Icon"/>
     <h1>Welcome {{ Uname }}!</h1>
         <form action="{% url 'accounts:passwordbank' %}" method="get">
-          {% csrf_token %}
+            {% csrf_token %}
           <button class="button" type="submit">Password Bank</button>
         </form>
         <br>

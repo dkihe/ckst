@@ -6,7 +6,7 @@ from django.http import HttpResponseRedirect
 from django.template import loader
 
 from .models import UserData
-from .import forms
+from . import forms
 
 # Create your views here.
 def signup_view(request):
@@ -52,21 +52,21 @@ def logout_view(request):
 @login_required(login_url="/accounts/login")
 def passwordbank_view(request):
     if request.method == 'POST':
-        form = forms.NewEntry(request.POST)
+        form = forms.NewEntry(request.POST, request.FILES)
         if form.is_valid():
             instance = form.save(commit=False)
             instance.user = request.user
-            instance.save
-            return redirect('accounts:passwordbank')
+            instance.save()
+            return redirect('accounts:userhome')
     else:
         form = forms.NewEntry()
     return render(request, 'accounts/passwordbank.html', {'form': form})
 
-@login_required(login_url="/accounts/login")
-def userdata_display(request):
-    all_accounts = UserData.objects.all()
-    template = loader.get_template('passwordbank.html')
-    context = {
-        'all_accounts': all_accounts,
-    }
-    return HttpResponse(template.render(context, request))
+#@login_required(login_url="/accounts/login")
+#def userdata_display(request):
+#    all_accounts = UserData.objects.all()
+#    template = loader.get_template('passwordbank.html')
+#    context = {
+#        'all_accounts': all_accounts,
+#    }
+#    return HttpResponse(template.render(context, request))
