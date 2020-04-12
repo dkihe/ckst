@@ -45,7 +45,7 @@ def logout_view(request):
         return redirect('accounts:login')
 
 def passwordbank_view(request):
-    all_accounts = UserAccount.objects.all()
+    all_accounts = UserData.objects.all()
     template = loader.get_template('passwordbank.html')
     context = {
         'all_accounts': all_accounts,
