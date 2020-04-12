@@ -3,6 +3,7 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
+from django.template import loader
 
 from .models import UserData
 from .import forms
@@ -48,7 +49,21 @@ def logout_view(request):
         logout(request)
         return redirect('accounts:login')
 
+@login_required(login_url="/accounts/login")
 def passwordbank_view(request):
+    if request.method == 'POST':
+        form = forms.NewEntry(request.POST)
+        if form.is_valid():
+            instance = form.save(commit=False)
+            instance.user = request.user
+            instance.save
+            return redirect('accounts:passwordbank')
+    else:
+        form = forms.NewEntry()
+    return render(request, 'accounts/passwordbank.html', {'form': form})
+
+@login_required(login_url="/accounts/login")
+def userdata_display(request):
     all_accounts = UserData.objects.all()
     template = loader.get_template('passwordbank.html')
     context = {
