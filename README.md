@@ -118,9 +118,13 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 
 ## Roles and Responsibilities
 * Christopher Na 
-  * Completed Contact page and database workflow 
-  * Design changes to pages for a cohesive color scheme
-    * Current/Next Task: User account authorization and finalization of data associated with accounts
+  * Restructured models and layout of app.
+  * Added authorizations for Users and Admin.
+  * Added forms to enter in user information.
+  * General UI modifications for appealing design.
+    * Current/Next Task: Finish UI related tasks for the app
+                         Add additional features to Users and the Password Bank
+                         Create the wiki Contact Us page
 * Kainalu Kihe
   * Changed design of Signup and Login pages to reflect old design of webpages
     * Current/Next Task: Design User Accounts page 
