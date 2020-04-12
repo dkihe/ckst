@@ -123,7 +123,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Added forms to enter in user information.
   * General UI modifications for appealing design.
     * Current/Next Task: Finish UI related tasks for the app
-                         Add additional features to Users and the Password Bank
+                         Add additional features/styling to Users and the Contact Form
                          Create the wiki Contact Us page
 * Kainalu Kihe
   * Changed design of Signup and Login pages to reflect old design of webpages
