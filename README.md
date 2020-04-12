@@ -101,4 +101,36 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Enabled the User Account page to load dummy data (account:password) from the database in a user-specific manner
     * Current/Next Task: Enable users to add new account:password entries to the database from the User Account page
 
+
+# Update (04/11/2020)
+## Progress
+* Redid webpages to work better with Django
+* Added new "passwordbank" page to hold user information
+* Users are now able to signup for an account as well as login to their accounts
+
+## Link
+* https://github.com/dkihe/ckst/
+
+
+## Pending
+* Design new user account page
+* Add ability for users to manage passwords and accounts in user account page
+
+## Roles and Responsibilities
+* Christopher Na 
+  * Completed Contact page and database workflow 
+  * Design changes to pages for a cohesive color scheme
+    * Current/Next Task: User account authorization and finalization of data associated with accounts
+* Kainalu Kihe
+  * Changed design of Signup and Login pages to reflect old design of webpages
+    * Current/Next Task: Design User Accounts page 
+* Sabine Strasburger
+  * Redid all webpages so that webpages are more inline with Django's workflow
+  * Added functionality to pages so that users are able to Login/Signup
+  * Added Django function that checks password strength 
+    * Current/Next Task: Add admin capabilities to view database from Django backend
+* Ty Gwartney
+  * Created the User Account page and added basic design
+  * Enabled the User Account page to load dummy data (account:password) from the database in a user-specific manner
+    * Current/Next Task: Enable users to add new account:password entries to the database from the User Account page
     
