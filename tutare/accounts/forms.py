@@ -1,5 +1,5 @@
 from django import forms
-from .import models
+from . import models
 
 class NewEntry(forms.ModelForm):
     class Meta:
