@@ -18,7 +18,7 @@
         {% endif %}
         <img src="{% static '/images/people.png' width=60 %}" id="logo" alt="User Icon"/>
     <h1>Welcome {{ Uname }}!</h1>
-        <form method="get" action="about.html"><a href="" class="button">Password Bank</a></form>
+        <form method="get" action="{% url 'accounts:passwordbank' %}"><a href="" class="button">Password Bank</a></form>
         <br>
         <form action="{% url 'contactus:contactus' %}" method="post">
             {% csrf_token %}
