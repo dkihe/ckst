@@ -132,6 +132,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Redid all webpages so that webpages are more inline with Django's workflow
   * Added functionality to pages so that users are able to Login/Signup
   * Added Django function that checks password strength 
+  * Redirected submitted 'contact us' form to print to terminal as a simulated email
     * Current/Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
   * Created the User Account page and added basic design
