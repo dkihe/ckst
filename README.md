@@ -124,8 +124,8 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Added authorizations for Users and Admin.
   * Added forms to enter in user information.
   * General UI modifications for appealing design.
-    * Current/Next Task: Finish UI related tasks for the app
-                         Add additional features/styling to Users and the Contact Form
+    * Current/Next Task: Finish UI related tasks for the app, 
+                         Add additional features/styling to Users and the Contact Form, 
                          Create the wiki Contact Us page
 * Kainalu Kihe
   * Changed design of Signup and Login pages to reflect old design of webpages
@@ -141,6 +141,5 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Fixed bug where the Password Bank was displaying all users data instead of user-specific data
   * Created a New Entry page where users can add new database entries in "Account: Password" tuples
   * Enabled Admin capabilities for editing User account data
-    * Current/Next Task: Enable users to delete account:password entries in the database
-                         Possibly integrate the NewEntry and PasswordBank pages
+    * Current/Next Task: Enable users to delete account:password entries in the database, possibly integrate the NewEntry and PasswordBank pages
     
