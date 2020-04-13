@@ -107,6 +107,8 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * Redid webpages to work better with Django
 * Added new "passwordbank" page to hold user information
 * Users are now able to signup for an account as well as login to their accounts
+* Users can add new account:password entries
+* Users can view their account:password entries
 
 ## Link
 * https://github.com/dkihe/ckst/
@@ -114,7 +116,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 
 ## Pending
 * Design new user account page
-* Add ability for users to manage passwords and accounts in user account page
+* Add ability for users to manage passwords and accounts from the Userhome page
 
 ## Roles and Responsibilities
 * Christopher Na 
@@ -127,7 +129,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
                          Create the wiki Contact Us page
 * Kainalu Kihe
   * Changed design of Signup and Login pages to reflect old design of webpages
-    * Current/Next Task: Design User Accounts and Contact Us page
+    * Current/Next Task: Design PasswordBank, NewEntry, and Contact Us page
 * Sabine Strasburger
   * Redid all webpages so that webpages are more inline with Django's workflow
   * Added functionality to pages so that users are able to Login/Signup
@@ -135,7 +137,10 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Redirected submitted 'contact us' form to print to terminal as a simulated email
     * Current/Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
-  * Created the User Account page and added basic design
-  * Enabled the User Account page to load dummy data (account:password) from the database in a user-specific manner
-    * Current/Next Task: Enable users to add new account:password entries to the database from the User Account page
+  * Updated the UserAccount page, now the PasswordBank, set to work with newly athenticated users
+  * Fixed bug where the Password Bank was displaying all users data instead of user-specific data
+  * Created a New Entry page where users can add new database entries in "Account: Password" tuples
+  * Enabled Admin capabilities for editing User account data
+    * Current/Next Task: Enable users to delete account:password entries in the database
+                         Possibly integrate the NewEntry and PasswordBank pages
     
