@@ -61,8 +61,9 @@ def newentry_view(request):
         form = forms.NewEntry()
     return render(request, 'accounts/newentry.html', {'form': form})
 
+@login_required(login_url="/accounts/login")
 def userdata_display(request):
-    all_accounts = UserData.objects.all()
+    all_accounts = UserData.objects.filter(user=request.user)
     template = loader.get_template('accounts/passwordbank.html')
     context = {
         'all_accounts': all_accounts,
