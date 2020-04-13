@@ -23,6 +23,11 @@
           <button class="button" type="submit">Password Bank</button>
         </form>
         <br>
+        <form action="{% url 'accounts:newentry' %}" method="get">
+            {% csrf_token %}
+          <button class="button" type="submit">New Entry</button>
+        </form>
+        <br>
         <form action="{% url 'contactus:contactus' %}" method="post">
             {% csrf_token %}
         <button class="button" type="submit">Contact Us</button>
