@@ -137,7 +137,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Redirected submitted 'contact us' form to print to terminal as a simulated email
     * Current/Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
-  * Updated the UserAccount page, now the PasswordBank, set to work with newly athenticated users
+  * Updated the UserAccount page, now the PasswordBank, set to work with newly authenticated users
   * Fixed bug where the Password Bank was displaying all users data instead of user-specific data
   * Created a New Entry page where users can add new database entries in "Account: Password" tuples
   * Enabled Admin capabilities for editing User account data
