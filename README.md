@@ -129,7 +129,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
                          create the wiki Contact Us page
 * Kainalu Kihe
   * Changed design of Signup and Login pages to reflect old design of webpages
-    * Current/Next Task: Design PasswordBank, NewEntry, and Contact Us page
+    * Current/Next Task: Re-style the PasswordBank, NewEntry, and ContactUs page
 * Sabine Strasburger
   * Redid all webpages so that webpages are more inline with Django's workflow
   * Added functionality to pages so that users are able to Login/Signup
