@@ -65,7 +65,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Planned application functionality and user flow
   * Next Task:
     * Start work on User Account page
-    * Enhonce design of all pages
+    * Enhance design of all pages
 
 # Update (02/25/2020 - 03/08/2020)
 ## Progress
