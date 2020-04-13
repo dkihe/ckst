@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.template import loader
 
 from .models import UserData
@@ -49,8 +49,7 @@ def logout_view(request):
         logout(request)
         return redirect('accounts:login')
 
-@login_required(login_url="/accounts/login")
-def passwordbank_view(request):
+def newentry_view(request):
     if request.method == 'POST':
         form = forms.NewEntry(request.POST, request.FILES)
         if form.is_valid():
@@ -60,13 +59,12 @@ def passwordbank_view(request):
             return redirect('accounts:userhome')
     else:
         form = forms.NewEntry()
-    return render(request, 'accounts/passwordbank.html', {'form': form})
+    return render(request, 'accounts/newentry.html', {'form': form})
 
-#@login_required(login_url="/accounts/login")
-#def userdata_display(request):
-#    all_accounts = UserData.objects.all()
-#    template = loader.get_template('passwordbank.html')
-#    context = {
-#        'all_accounts': all_accounts,
-#    }
-#    return HttpResponse(template.render(context, request))
+def userdata_display(request):
+    all_accounts = UserData.objects.all()
+    template = loader.get_template('accounts/passwordbank.html')
+    context = {
+        'all_accounts': all_accounts,
+    }
+    return HttpResponse(template.render(context, request))

@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User Account</title>
+        <link rel="stylesheet" href="{% static '/css/passwordbank.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" >
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+  </head>
+  <body>
+    <div class="new_entry">
+        <h2>Add New Entry:</h2>
+        <form action="{% url 'accounts:newentry' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Enter">
+        </form>
+    </div>
+    </body>
+  </html>

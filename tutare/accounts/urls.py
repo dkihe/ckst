@@ -8,5 +8,6 @@ urlpatterns = [
     path('userhome', views.user_homepage, name="userhome"),
     path('login', views.login_view, name="login"),
     path('logout', views.logout_view, name="logout"),
-    path('passwordbank', views.passwordbank_view, name="passwordbank")
+    path('newentry', views.newentry_view, name="newentry"),
+    path('passwordbank', views.userdata_display, name="passwordbank")
 ]
