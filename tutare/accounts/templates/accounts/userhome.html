@@ -2,41 +2,43 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
+<head>
     <meta charset="utf-8">
     <title>Tutare</title>
-        <link rel="stylesheet" href="{% static '/css/homepage.css' %}">
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
-    </head>
-    <body>
-        {% if messages %}
-            <ul class="messages">
-            {% for message in messages %}
-                <li class="{{ message.tags }}">{{ message }}</li>
-            {% endfor %}
-            </ul>
-        {% endif %}
-        <img src="{% static '/images/people.png' width=60 %}" id="logo" alt="User Icon"/>
+    <link rel="stylesheet" href="{% static '/css/homepage.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+</head>
+<body>
+<div style="text-align: center">
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <img src="{% static '/images/people.png' width=60 %}" id="logo" alt="User Icon"/>
     <h1>Welcome {{ Uname }}!</h1>
-        <form action="{% url 'accounts:passwordbank' %}" method="get">
-            {% csrf_token %}
-          <button class="button" type="submit">Password Bank</button>
-        </form>
-        <br>
-        <form action="{% url 'accounts:newentry' %}" method="get">
-            {% csrf_token %}
-          <button class="button" type="submit">New Entry</button>
-        </form>
-        <br>
-        <form action="{% url 'contactus:contactus' %}" method="post">
-            {% csrf_token %}
+    <form action="{% url 'accounts:passwordbank' %}" method="get">
+        {% csrf_token %}
+        <button class="button" type="submit">Password Bank</button>
+    </form>
+    <br>
+    <form action="{% url 'accounts:newentry' %}" method="get">
+        {% csrf_token %}
+        <button class="button" type="submit">New Entry</button>
+    </form>
+    <br>
+    <form action="{% url 'contactus:contactus' %}" method="post">
+        {% csrf_token %}
         <button class="button" type="submit">Contact Us</button>
-        </form>
-        <br>
-        <form action="{% url 'accounts:logout' %}" method="post">
-            {% csrf_token %}
+    </form>
+    <br>
+    <form action="{% url 'accounts:logout' %}" method="post">
+        {% csrf_token %}
         <button class="button" type="submit">Logout</button>
-        </form>
-        <br>
-    </body>
+    </form>
+    <br>
+</div>
+</body>
 </html>
