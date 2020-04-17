@@ -67,7 +67,8 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
     * Start work on User Account page
     * Enhance design of all pages
 
-# Update (02/25/2020 - 03/08/2020)
+#  Part II
+## Update (02/25/2020 - 03/08/2020)
 ## Progress
 * Changed the entire layout and design of the webpage
 * Added new pages such as a Sign-up page, a User Account page and an About page
@@ -102,7 +103,8 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
     * Current/Next Task: Enable users to add new account:password entries to the database from the User Account page
 
 
-# Update (04/11/2020)
+#  Part III
+## Update (04/11/2020)
 ## Progress
 * Redid webpages to work better with Django
 * Added new "passwordbank" page to hold user information
@@ -143,3 +145,14 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Enabled Admin capabilities for editing User account data
     * Current/Next Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
     
+# Part IV
+
+## Technical Notes
+
+## Developer Notes
+
+## Links
+* online repository
+* final project documentation file
+* release version
+* wiki page
