@@ -1,10 +1,11 @@
 body {
-    background-color: #DFCFBE;
+    /* background-color: #DFCFBE; */
+    background-color: #23272A;
 }
 
 h1 {
     font-family: 'Lato';
-    color: black;
+    color: white;
     padding-left: 110px;
     letter-spacing: 5px;
     padding-bottom: 5px;
@@ -29,7 +30,7 @@ h1 {
     font-family: 'Lato';
     font-weight: 300;
     width: 370px;
-    color: black;
+    color: white;
 
     padding: 40px;
 }
@@ -40,7 +41,7 @@ h3 {
     padding: 20px 0 20px;
     font-weight: 300;
     letter-spacing: 2px;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 30px;
 }
@@ -51,7 +52,7 @@ h3 {
     margin: 0;
     padding: 0;
     font-weight: 300;
-    color: black;
+    color: white;
 }
 
 .form-area input, select{
@@ -64,16 +65,12 @@ h3 {
     font-family: 'Lato';
     letter-spacing: 1px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     background-color: transparent;
     outline: none;
     height: 20px;
-    color:black;
+    color:white;
     display: 16px;
-}
-
-::placeholder{
-    color: black;
 }
 
 .form-area input[type=submit]{
@@ -81,10 +78,11 @@ h3 {
     border: none;
     height: 40px;
     outline: none;
-    color: black;
+    color: white;
+    background: #2C2F33;
+    border-radius: 10px;
     font-size: 15px;
-    background: transparent;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     letter-spacing: 4px;
     cursor: pointer;
 }
@@ -92,12 +90,12 @@ h3 {
 .form-area input[type=submit]:hover,
 .form-area input[type=submit]:active
 {
-    color: black;
+    color: white;
     background:rgba(0, 0, 0, 0.2);
 }
 
 .form-area a{
-    color:black;
+    color:#b0b2b5;;
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
@@ -105,7 +103,7 @@ h3 {
 }
 
 .form-area a:hover{
-    color: #06534C;
+    color:white;
 }
 
 .form-area input[type=checkbox]{
@@ -145,3 +143,9 @@ label {
     font-weight: bold;
     color: red;
 }
+
+#signupThing:hover, #signupThing:active {
+    /* color:black; */
+    /* background:rgba(0, 0, 0, 0.2); */
+    background:#40444b;
+  }
