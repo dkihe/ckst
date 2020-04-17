@@ -49,6 +49,7 @@ def logout_view(request):
         logout(request)
         return redirect('accounts:login')
 
+@login_required(login_url="/accounts/login")
 def newentry_view(request):
     if request.method == 'POST':
         form = forms.NewEntry(request.POST, request.FILES)
