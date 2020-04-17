@@ -65,9 +65,10 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Planned application functionality and user flow
   * Next Task:
     * Start work on User Account page
-    * Enhonce design of all pages
+    * Enhance design of all pages
 
-# Update (02/25/2020 - 03/08/2020)
+#  Part II
+## Update (02/25/2020 - 03/08/2020)
 ## Progress
 * Changed the entire layout and design of the webpage
 * Added new pages such as a Sign-up page, a User Account page and an About page
@@ -102,11 +103,14 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
     * Current/Next Task: Enable users to add new account:password entries to the database from the User Account page
 
 
-# Update (04/11/2020)
+#  Part III
+## Update (04/11/2020)
 ## Progress
 * Redid webpages to work better with Django
 * Added new "passwordbank" page to hold user information
 * Users are now able to signup for an account as well as login to their accounts
+* Users can add new account:password entries
+* Users can view their account:password entries
 
 ## Link
 * https://github.com/dkihe/ckst/
@@ -114,7 +118,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 
 ## Pending
 * Design new user account page
-* Add ability for users to manage passwords and accounts in user account page
+* Add ability for users to manage passwords and accounts from the Userhome page
 
 ## Roles and Responsibilities
 * Christopher Na 
@@ -122,12 +126,12 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Added authorizations for Users and Admin.
   * Added forms to enter in user information.
   * General UI modifications for appealing design.
-    * Current/Next Task: Finish UI related tasks for the app
-                         Add additional features/styling to Users and the Contact Form
-                         Create the wiki Contact Us page
+    * Current/Next Task: Finish UI related tasks for the app, 
+                         add additional features/styling to Users and the Contact Form, 
+                         create the wiki Contact Us page
 * Kainalu Kihe
   * Changed design of Signup and Login pages to reflect old design of webpages
-    * Current/Next Task: Design User Accounts and Contact Us page
+    * Current/Next Task: Re-style the PasswordBank, NewEntry, and ContactUs page
 * Sabine Strasburger
   * Redid all webpages so that webpages are more inline with Django's workflow
   * Added functionality to pages so that users are able to Login/Signup
@@ -135,7 +139,20 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Redirected submitted 'contact us' form to print to terminal as a simulated email
     * Current/Next Task: Add admin capabilities to view database from Django backend
 * Ty Gwartney
-  * Created the User Account page and added basic design
-  * Enabled the User Account page to load dummy data (account:password) from the database in a user-specific manner
-    * Current/Next Task: Enable users to add new account:password entries to the database from the User Account page
+  * Updated the UserAccount page, now the PasswordBank, set to work with newly authenticated users
+  * Fixed bug where the Password Bank was displaying all users data instead of user-specific data
+  * Created a New Entry page where users can add new database entries in "Account: Password" tuples
+  * Enabled Admin capabilities for editing User account data
+    * Current/Next Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
     
+# Part IV
+
+## Technical Notes
+
+## Developer Notes
+
+## Links
+* online repository
+* final project documentation file
+* release version
+* wiki page
