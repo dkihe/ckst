@@ -24,7 +24,7 @@ form {
     color: white;
     background: #2C2F33;
     border-radius: 10px;
-    /* border: 1px solid black; */
+    border-style: none;
     font-size: 17px;
     font-family: 'Lato';
     letter-spacing: 4px;
@@ -33,14 +33,12 @@ form {
     padding-left: 70px;
     padding-right: 70px;
     font-weight: 300;
-    min-width: 120px;
+    min-width: 20rem;
     display: inline-block;
     text-decoration: none;
 }
 
 .button:hover, .button:active {
-  /* color:#99aab5; */
-  /* background:rgba(0, 0, 0, 0.2); */
   background:#40444b;
 }
 
