@@ -6,17 +6,11 @@ body {
 h1 {
     font-family: 'Lato';
     color: white;
-    padding-left: 110px;
+    /* padding-left: 110px; */
     letter-spacing: 5px;
     padding-bottom: 5px;
     font-size: 50px;
     font-weight: 250;
-}
-
-
-form {
-
-    padding-left: 110px;
 }
 
 
@@ -39,12 +33,11 @@ form {
 }
 
 .button:hover, .button:active {
-  background:#40444b;
+    background:#40444b;
 }
 
 
 #logo {
     padding-top: 100px;
-    padding-left: 100px;
     width: 200px;
 }
