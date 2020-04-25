@@ -30,7 +30,6 @@ h1 {
     font-weight: 300;
     width: 370px;
     color: white;
-
     padding: 40px;
 }
 
@@ -147,4 +146,4 @@ label {
     /* color:black; */
     /* background:rgba(0, 0, 0, 0.2); */
     background:#40444b;
-  }
+}

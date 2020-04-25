@@ -1,6 +1,24 @@
-<h2>Contact Us</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Submit" />
-</form>
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>User Account</title>
+		<link rel="stylesheet" href="{% static '/css/contact.css' %}">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" >
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
+	</head>
+	<body>
+		<img alt="" src="{% static '/images/people.png'  %}" width=100 id="logo"/>
+		<h3>CONTACT US</h3>
+		<div class="form-area">
+			<form method="post">
+				{% csrf_token %}
+				{{ form.as_p }}
+				<input type="submit" value="Submit" id="submit"/>
+			</form>
+		</div>
+	</body>
+</html>
