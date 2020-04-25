@@ -146,13 +146,24 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
     * Current/Next Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
     
 # Part IV
-
+## Progress + Part IV Roles and Responsibilities
+* Christopher Na
+   * Task: Finish UI related tasks for the app, 
+                        add additional features/styling to Users and the Contact Form, 
+                        create the wiki Contact Us page
+* Kainalu Kihe
+  * Task: Re-style the PasswordBank, NewEntry, and ContactUs page
+* Sabine Strasburger
+  * Task: Add admin capabilities to view database from Django backend
+* Ty Gwartney
+  * Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
 ## Technical Notes
-
+ * App specifications
+ * How to install
 ## Developer Notes
-
+ * closing notes
 ## Links
-* online repository
-* final project documentation file
-* release version
-* wiki page
+* Online repository
+* Final project documentation file
+* Release version
+* Wiki page
