@@ -9,7 +9,7 @@ h1 {
     letter-spacing: 5px;
     padding-bottom: 5px;
     font-size: 80px;
-    font-weight: 250;
+    font-weight: 300;
 }
 
 
@@ -27,7 +27,8 @@ h1 {
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: 'Lato';
-    font-weight: 300;
+    font-weight: 900;
+    font-size: 15px;
     width: 370px;
     color: white;
     padding: 40px;
@@ -37,11 +38,11 @@ h3 {
     font-family: 'Lato';
     margin: 0;
     padding: 20px 0 20px;
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 2px;
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .form-area p{
@@ -146,4 +147,8 @@ label {
     /* color:black; */
     /* background:rgba(0, 0, 0, 0.2); */
     background:#40444b;
+}
+
+.newbutton {
+    font-weight: 900;
 }
