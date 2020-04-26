@@ -2,11 +2,11 @@ body {
     /* background-color: #DFCFBE; */
     background-color: #23272A;
     color: white;
-    font-family: 'Lato';
+    font-family: 'Noto Sans';
 }
 
 h3 {
-    font-family: 'Lato';
+    font-family: 'Noto Sans';
     margin: 0;
     padding: 20px 0 20px;
     font-weight: 300;
@@ -35,7 +35,7 @@ h3 {
     top: 500px;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family: 'Lato';
+    font-family: 'Noto Sans';
     font-weight: 300;
     width: 370px;
     color: white;
@@ -43,7 +43,7 @@ h3 {
 }
 
 .form-area p{
-    font-family: 'Lato';
+    font-family: 'Noto Sans';
     letter-spacing: 1px;
     margin: 0;
     padding: 0;
@@ -58,7 +58,7 @@ h3 {
 
 .form-area input[type=text],
 .form-area input[type=email]{
-    font-family: 'Lato';
+    font-family: 'Noto Sans';
     letter-spacing: 1px;
     border: none;
     border-bottom: 1px solid white;
@@ -84,7 +84,7 @@ li {
 }
 
 textarea {
-    font-family: 'Lato';
+    font-family: 'Noto Sans';
 }
 
 #submit:hover, #submit:active {
@@ -92,7 +92,7 @@ textarea {
 }
 
 .form-area input[type=submit]{
-    font-family: 'Lato';
+    font-family: 'Noto Sans';
     border: none;
     height: 40px;
     outline: none;
