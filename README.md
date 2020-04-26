@@ -149,8 +149,8 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 ## Progress + Part IV Roles and Responsibilities
 * Christopher Na
    * Task: Finish UI related tasks for the app, 
-                        add additional features/styling to Users and the Contact Form, 
-                        create the wiki Contact Us page
+    * add additional features/styling to Users and the Contact Form, 
+    * create the wiki page
 * Kainalu Kihe
   * Task: Re-style the PasswordBank, NewEntry, and ContactUs page
 * Sabine Strasburger
