@@ -160,17 +160,17 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
  * App specifications
     * To be able to use this application, you must have the most current version of Python 3 and Django installed.
         * To install the most current version of python:
-              * brew install python
+             * brew install python
         * To install Django simply:
-              * python -m pip install Django
+             * python -m pip install Django
  * How to install
     * Download the zip file of the repository, and unzip it
     * In the terminal cd to the downloaded repository
     * Then type:
         * For devices with Python 2 as default:
-              * python manage.py runserver 
+             * python manage.py runserver 
         * For devices with Python 3 as default:
-              * python3 manage.py runserver
+             * python3 manage.py runserver
     * Go to the URL provided
     * Now you are able to use the application
 
