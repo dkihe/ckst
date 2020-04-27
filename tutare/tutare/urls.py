@@ -18,6 +18,7 @@ from django.urls import path, re_path, include
 from . import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
+# URLs for each page in the generic app.
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', views.about),
