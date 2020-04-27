@@ -4,12 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{% static '/css/delete.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <form action="" method="post">
         {% csrf_token %}
-        <p>Are you sure you want to delete your account: {{ accounts.account }}?</p>
-        <input type="submit" value="Delete"/>
+        <div>
+            <img alt="" src="{% static '/images/people.png' %}" width=50px id="logo"/>
+            <p>Are you sure you want to delete your account: 
+                <p id=name>"{{ accounts.account }}"</p>
+            </p>
+        <input type="submit" value="Delete"/></div>
     </form>
 </body>
 </html>
