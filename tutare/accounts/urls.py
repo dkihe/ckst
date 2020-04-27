@@ -3,6 +3,7 @@ from . import views
 
 app_name = 'accounts'
 
+# URLs for each page in the accounts app.
 urlpatterns = [
     path('signup', views.signup_view, name="signup"),
     path('userhome', views.user_homepage, name="userhome"),
