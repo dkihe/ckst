@@ -4,9 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{% static '/css/passwordbank.css' %}">
 </head>
 <body>
-    <form action="" method="post">
+<ul>
+    <li id="image"><img alt="" src="{% static '/images/people.png' %}" width=50px id="logo"/></li>
+    <li><a href="{% url 'accounts:userhome' %}">Home</a></li>
+    <li><a href="{% url 'accounts:passwordbank' %}">Password Bank</a></li>
+    <li><a href="{% url 'contactus:contactus' %}">Contact Us</a></li>
+    <li><a href="{% url 'accounts:login' %}">Logout</a></li>
+</ul>
+    <form style="text-align: center" action="" method="post">
         {% csrf_token %}
         <p>Are you sure you want to delete your account: {{ accounts.account }}?</p>
         <input type="submit" value="Delete"/>
