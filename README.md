@@ -62,7 +62,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
     * Enhance design of all pages
 
 #  Part II
-## Update (02/25/2020 - 03/08/2020)
+## Update (03/08/2020)
 ## Progress
 * Changed the entire layout and design of the webpage
 * Added new pages such as a Sign-up page, a User Account page and an About page
@@ -138,7 +138,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
     * Current/Next Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
     
 # Part IV
-## Update (4/26/20)
+## Update (4/26/2020)
 ## Progress
 * Added finishing touches - new page design and About pages.
 * Attempted to enable users to delete account+password entries, but were unable to due to time constraints (enabling this feature would require a substantial overhall of much of our existing/working design).
