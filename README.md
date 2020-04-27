@@ -145,25 +145,25 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Enabled Admin capabilities for editing User account data
     * Current/Next Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
     
-# Part IV
+# Part IV (4/26/20)
 ## Progress + Part IV Roles and Responsibilities
 * Christopher Na
-   * Task: Finish UI related tasks for the app, 
-    * add additional features/styling to Users and the Contact Form, 
-    * create the wiki page
+   * Finished UI related tasks for the app, added additional features/styling to Users and the Contact Form.
+    * Created the application Wiki page.
 * Kainalu Kihe
-  * Task: Re-style the PasswordBank, NewEntry, and ContactUs page
+  * Re-styled the entire website: changed the color scheme, text font, created a navigation bar, and fixed data tables.
 * Sabine Strasburger
-  * Task: Add admin capabilities to view database from Django backend
+  * Updated the About page to feature a tour of the website.
+  * Task: Add admin capabilities to view database from Django backend (?)
 * Ty Gwartney
-  * Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
+  * Added the navigation bar to the NewEntry page.
 ## Technical Notes
  * App specifications
  * How to install
 ## Developer Notes
- * closing notes
+ * We used the Django web application framework to develop Tutare. The biggest challenge was properly making use of Django's built in features. More than once, we designed and implemented aspects of our project, only later to discover that Django had built in functions we could used instead that would have saved us time and effort. Other challenges included authenticating users, formatting and designing each page to work with the application code, and displaying user data from the database.
 ## Links
-* Online repository
+* Online Repository: https://github.com/dkihe/ckst
 * Final project documentation file
-* Release version
-* Wiki page: https://github.com/dkihe/ckst/wiki
+* Release Version: 1.0
+* Wiki Page: https://github.com/dkihe/ckst/wiki
