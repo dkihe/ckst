@@ -1,0 +1,54 @@
+Tutare is an online password manager made with the Django web framework, a Python-based application library. This documentation file highlights the main folders/files of Tutare. While there are other files not listed here that are included in the project, this file serves as a basic explanation of the overview of the architecture of the application.
+
+The top level folder is "tutare". This contains all of the project files:
+- accounts
+- assets
+- contactus
+- templates
+- tutare
+... as well as a .gitignore file, our main database db.sqlite3, and the manage.py file needed for Django projects.
+
+
+The accounts folder contains the main folder/files for the accounts app:
+The migrations folder contains the current status of each table within the database.
+The templates/accounts folder contains the html files pertaining to user accounts:
+- login.html
+- newentry.html
+- passwordbank.html
+- signup.html
+- template.html
+- userhome.html
+
+In addition, the accounts app contains several .py files:
+- admin.py - lists/registers the database tables accessible from the admin page
+- forms.py - defines the form for adding new account data
+- models.py - specifies the format of each database table Tutare uses
+- urls.py - species the URL for each html page
+- views.py - contains the page rendering/database backend functions
+
+
+The assets folder contains the page styling CSS files, image files, as well javascript files.
+
+
+The contactus folder contains the main folder/files for the contactus app:
+The templates/accounts folder contains the html files pertaining to user accounts:
+- contactus.html
+
+In addition, the contactus app contains several .py files:
+- admin.py - lists/registers the database tables accessible from the admin page
+- forms.py - defines the form for contacting Tutare staff
+- models.py - specifies the format of each database table Tutare uses
+- urls.py - species the URL for each html page
+- views.py - contains the page rendering/database backend functions
+
+
+The templates folder contains:
+- about.html
+- homepage.html
+These are the front-end pages that are viewable to anyone, not just users.
+
+
+Finally, the tutare folder contains the main folder/files for the main tutare app:
+- settings.py - a Django page listing all of the main settings of our project
+- urls.py - specifies the URL for each html page
+- views.py - rendering functions for the homepage and the about page
