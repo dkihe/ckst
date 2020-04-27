@@ -140,13 +140,13 @@ The languages we plan on using to develop this app are JavaScript, Python, HTML,
 # Part IV
 ## Update (4/26/2020)
 ## Progress
-* Added finishing touches - new page design and About pages.
-* Attempted to enable users to delete account+password entries, but were unable to due to time constraints (enabling this feature would require a substantial overhall of much of our existing/working design).
+* Added finishing touches - new page design, new site tour, enabled users to delete old entries.
 
 ## Roles and Responsibilities
 * Christopher Na
    * Finished UI related tasks for the app, added additional features/styling to Users and the Contact Form.
    * Created the application Wiki page.
+   * Added working delete buttons to the PasswordBank.
 * Kainalu Kihe
   * Re-styled the entire website: changed the color scheme and text font, created a navigation bar, and fixed data tables.
 * Sabine Strasburger
