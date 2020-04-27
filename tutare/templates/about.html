@@ -14,13 +14,13 @@
 <h1>Your secret is safe with us.</h1>
 
 <div class="items" id="wrapper">
-    <div><img src="{% static '/images/about_temp.png' %}" alt="slider image"/></div>
-    <div><img src="{% static '/images/about_temp.png' %}" alt="slider image"/></div>
-    <div><img src="{% static '/images/about_temp.png' %}" alt="slider image"/></div>
+    <div><img src="{% static '/images/About_1.png' %}" alt="slider image"/></div>
+    <div><img src="{% static '/images/About_2.png' %}" alt="slider image"/></div>
+    <div><img src="{% static '/images/About_3.png' %}" alt="slider image"/></div>
 </div>
 <br>
 <br>
-<form method="get" action="login.html"><a class="button">Get Started</a></form>
+<form method="get" action="login.html"><a href="{% url 'accounts:signup' %}" class="button">Get Started</a></form>
 
 <script src="{% static '/js/jquery-3.1.0.js' %}" type="text/javascript"></script>
 <script src="{% static '/js/slick.js' %}" type="text/javascript"></script>
