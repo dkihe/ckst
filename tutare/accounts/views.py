@@ -1,9 +1,12 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect, HttpResponse
 from django.template import loader
+from django.urls import reverse_lazy
+from django.views.generic import DeleteView
+
 from .models import UserData
 from . import forms
 
@@ -75,3 +78,9 @@ def userdata_display(request):
         'all_accounts': all_accounts,
     }
     return HttpResponse(template.render(context, request))
+
+class CleanView(DeleteView):
+    model=UserData
+    template_name = 'accounts/template.html'
+    context_object_name = 'accounts'
+    success_url = reverse_lazy('accounts:passwordbank')
