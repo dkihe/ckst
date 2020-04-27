@@ -154,7 +154,6 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Re-styled the entire website: changed the color scheme, text font, created a navigation bar, and fixed data tables.
 * Sabine Strasburger
   * Updated the About page to feature a tour of the website.
-  * Task: Add admin capabilities to view database from Django backend (?)
 * Ty Gwartney
   * Added the navigation bar to the NewEntry page.
 ## Technical Notes
