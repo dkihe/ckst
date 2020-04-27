@@ -1,23 +1,18 @@
 # Table of contents
-
 * [About Project](#about-project)
 * [The App](#the-app)
 * [Languages](#languages)
 
 # About Project
-
 A browser-based password manager that generates unique, strong passwords.
 
 # The App
-
 The goal of our app is to be able to securely store and categorize login credentials, payment information, passports, wireless routers and more. The user can create vaults to separate personal information from work. Use autofill on websites so you never have to remember another password again.
 
 # Languages
-
 The languages we plan on using to develop this app is JavaScript, Python, HTML, and CSS.
 
 # Completed
-
 * Database setup
   * One model/table for users enabled - username and password
   * One model/table for user account data - registered accounts and password
@@ -32,7 +27,6 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
     * Overview of the app and website
 
 # Pending
-
 * Account authorization
   * Verify the user account:password from the Login page
 * Sign-up Page
@@ -77,7 +71,6 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 ## Link
 * https://github.com/dkihe/ckst/
 
-
 ## Pending
 * Give functionality to User page
 * Add admin capabilities to backend
@@ -115,7 +108,6 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 ## Link
 * https://github.com/dkihe/ckst/
 
-
 ## Pending
 * Design new user account page
 * Add ability for users to manage passwords and accounts from the Userhome page
@@ -145,8 +137,13 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
   * Enabled Admin capabilities for editing User account data
     * Current/Next Task: Enable users to delete account:password entries from the database, possibly integrate the NewEntry and PasswordBank pages
     
-# Part IV (4/26/20)
-## Progress + Part IV Roles and Responsibilities
+# Part IV
+## Update (4/26/20)
+## Progress
+* Added finishing touches - new page design and About pages.
+* Attempted to enable users to delete account+password entries, but were unable to due to time constraints (enabling this feature would require a substantial overhall of much of our existing/working design).
+
+## Roles and Responsibilities
 * Christopher Na
    * Finished UI related tasks for the app, added additional features/styling to Users and the Contact Form.
    * Created the application Wiki page.
@@ -157,6 +154,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 * Ty Gwartney
   * Added the navigation bar to the NewEntry page.
   * Added short comments to the .py pages.
+  
 ## Technical Notes
  * App specifications
     * To be able to use this application, you must have the most current version of Python 3 and Django installed.
@@ -178,6 +176,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 
 ## Developer Notes
  * We used the Django web application framework to develop Tutare. The biggest challenge was properly making use of Django's built in features. More than once, we designed and implemented aspects of our project, only later to discover that Django had built in functions we could used instead that would have saved us time and effort. Other challenges included authenticating users, formatting and designing each page to work with the application code, and displaying user data from the database.
+ 
 ## Links
 * Online Repository: https://github.com/dkihe/ckst
 * Final project documentation file
