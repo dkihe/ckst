@@ -179,6 +179,6 @@ The languages we plan on using to develop this app are JavaScript, Python, HTML,
  
 ## Links
 * Online Repository: https://github.com/dkihe/ckst
-* Final project documentation file
+* Final Project Documentation File: https://github.com/dkihe/ckst/blob/master/documentation.txt
 * Release Version: 1.0
 * Wiki Page: https://github.com/dkihe/ckst/wiki
