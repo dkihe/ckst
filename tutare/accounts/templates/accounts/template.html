@@ -4,14 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="{% static '/css/passwordbank.css' %}">
     <link rel="stylesheet" href="{% static '/css/delete.css' %}">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="" method="post">
+<ul>
+    <li id="image"><img alt="" src="{% static '/images/people.png' %}" width=50px id="logo"/></li>
+    <li><a href="{% url 'accounts:userhome' %}">Home</a></li>
+    <li><a href="{% url 'accounts:passwordbank' %}">Password Bank</a></li>
+    <li><a href="{% url 'contactus:contactus' %}">Contact Us</a></li>
+    <li><a href="{% url 'accounts:login' %}">Logout</a></li>
+</ul>
+    <form style="text-align: center" action="" method="post">
         {% csrf_token %}
         <div>
-            <img alt="" src="{% static '/images/people.png' %}" width=50px id="logo"/>
+            <img id="deleteimg" alt="" src="{% static '/images/people.png' %}" width=150px id="logo"/>
             <p>Are you sure you want to delete your account: 
                 <p id=name>"{{ accounts.account }}"</p>
             </p>
