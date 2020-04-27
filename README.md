@@ -149,13 +149,14 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
 ## Progress + Part IV Roles and Responsibilities
 * Christopher Na
    * Finished UI related tasks for the app, added additional features/styling to Users and the Contact Form.
-    * Created the application Wiki page.
+   * Created the application Wiki page.
 * Kainalu Kihe
-  * Re-styled the entire website: changed the color scheme, text font, created a navigation bar, and fixed data tables.
+  * Re-styled the entire website: changed the color scheme and text font, created a navigation bar, and fixed data tables.
 * Sabine Strasburger
   * Updated the About page to feature a tour of the website.
 * Ty Gwartney
   * Added the navigation bar to the NewEntry page.
+  * Added short comments to the .py pages.
 ## Technical Notes
  * App specifications
     * To be able to use this application, you must have the most current version of Python 3 and Django installed.
