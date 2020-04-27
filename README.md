@@ -173,6 +173,7 @@ The languages we plan on using to develop this app is JavaScript, Python, HTML, 
              * python3 manage.py runserver
     * Go to the URL provided
     * Now you are able to use the application
+    * To stop running your application, simply go to your terminal and press the keys CTRL-C
 
 ## Developer Notes
  * We used the Django web application framework to develop Tutare. The biggest challenge was properly making use of Django's built in features. More than once, we designed and implemented aspects of our project, only later to discover that Django had built in functions we could used instead that would have saved us time and effort. Other challenges included authenticating users, formatting and designing each page to work with the application code, and displaying user data from the database.
